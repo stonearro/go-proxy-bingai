@@ -153,4 +153,5 @@ jobs:
             docker.io/${{ github.repository }}:${{ github.ref_name }}
             docker.io/${{ github.repository }}:latest
           cache-from: type=registry,ref=${{ github.repository }}:cache
-          cache-to: type=registry,ref=${{ github.repository }}:cache,mode=max   
+          cache-to: type=registry,ref=${{ github.repository }}:cache,mode=max  
+          
